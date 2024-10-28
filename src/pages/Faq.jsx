@@ -41,7 +41,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="max-w-xl mx-auto p-6 border rounded-lg shadow-lg bg-white">
+    <div className="container mx-auto p-6 border rounded-lg shadow-lg bg-white">
       <h1 className="text-2xl font-bold mb-4">Frequently Asked Questions</h1>
       {faqData.map((item, index) => (
         <div key={index} className="border-b py-4">
